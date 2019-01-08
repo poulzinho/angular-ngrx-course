@@ -17,7 +17,7 @@ type AuthState = {
 const initialAuthState: AuthState = {
   loggedIn: false,
   user: undefined
-}
+};
 
 export interface AppState {
   auth: AuthState
